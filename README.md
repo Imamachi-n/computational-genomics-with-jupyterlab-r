@@ -1,10 +1,15 @@
 # computational-genomics-with-jupyterlab-r
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Imamachi-n/computational-genomics-with-jupyterlab-r/main?filepath=notebook%2F9_ChIP-seq_analysis.ipynb)
+
 [Computational Genomics with R](https://compgenomr.github.io/book/) を JupyterLab で記述したサンプル集です。
 
 ## MyBinder を利用した JupyterLab (WebIDE)の起動
 
-以下の URL にアクセスしてください。ローカルで環境構築することなく、Web ブラウザ上で JupyterLab を起動することができます。
+以下の URL にアクセスしてください。  
+<https://mybinder.org/v2/gh/Imamachi-n/computational-genomics-with-jupyterlab-r/main?filepath=notebook%2F9_ChIP-seq_analysis.ipynb>
+
+ローカルで環境構築することなく、Web ブラウザ上で JupyterLab を起動することができます。
 
 ## 環境構築（ローカル実行する場合）
 
