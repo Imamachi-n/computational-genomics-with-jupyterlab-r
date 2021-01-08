@@ -17,13 +17,19 @@
 
 1. [IRkernel](https://irkernel.github.io/installation/#binary-panel) をインストールする。
 
+   ```zsh
+   R
+   ```
+
    ```r
    # 1/3) Installing via CRAN
    install.packages('IRkernel')
 
    # 2/3) Making the kernel available to Jupyter
    IRkernel::installspec()
+   ```
 
+   ```zsh
    # 3/3) Make useful shortcuts available
    jupyter labextension install @techrah/text-shortcuts
    ```
