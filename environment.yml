@@ -1,4 +1,6 @@
 channels:
   - conda-forge
+  - bioconda
 dependencies:
   - r-base=4.0
+  - bioconductor-genomeinfodb
