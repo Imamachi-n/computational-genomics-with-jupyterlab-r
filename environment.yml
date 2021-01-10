@@ -4,3 +4,7 @@ channels:
 dependencies:
   - r-base=4.0
   - bioconductor-genomeinfodb
+  - bioconductor-genomicranges
+  - bioconductor-genomicalignments
+  - bioconductor-complexheatmap
+  - r-circlize
