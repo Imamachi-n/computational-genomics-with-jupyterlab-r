@@ -13,6 +13,12 @@ BiocManager::install("GenomicRanges")
 BiocManager::install("GenomicAlignments")
 BiocManager::install("ComplexHeatmap")
 install.packages("r-circlize")
+BiocManager::install("rtracklayer")
+BiocManager::install("Gviz")
+install.packages("ggplot2")
+BiocManager::install("BSgenome.Hsapiens.UCSC.hg38")
+install.packages("tidyr")
+BiocManager::install("AnnotationHub")
 ```
 
 ## トラブルシューティング
@@ -26,4 +32,22 @@ install.packages("r-circlize")
 ```zsh
 brew update
 brew install cairo
+```
+
+これでも解決しない場合、以下も追加。
+
+```zsh
+brew install pkg-config
+```
+
+zsh を使っている場合、`.zshrc` ファイルに以下を追加。
+
+```
+export PKG_CONFIG_PATH=/opt/X11/lib/pkgconfig
+```
+
+リロード。
+
+```zsh
+source ~/.zshrc
 ```

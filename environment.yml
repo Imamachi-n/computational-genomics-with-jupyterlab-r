@@ -8,3 +8,8 @@ dependencies:
   - bioconductor-genomicalignments
   - bioconductor-complexheatmap
   - r-circlize
+  - bioconductor-rtracklayer
+  - bioconductor-gviz
+  - r-ggplot2
+  - bioconductor-bsgenome.hsapiens.ucsc.hg38
+  - bioconductor-annotationhub
