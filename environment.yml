@@ -12,4 +12,10 @@ dependencies:
   - bioconductor-gviz
   - r-ggplot2
   - bioconductor-bsgenome.hsapiens.ucsc.hg38
+  - r-tidyr
   - bioconductor-annotationhub
+  - bioconductor-genomicfeatures
+  - bioconductor-normr
+  - bioconductor-motifdb
+  - bioconductor-tfbstools
+  - bioconductor-jaspar2018
