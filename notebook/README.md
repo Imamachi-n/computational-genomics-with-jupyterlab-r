@@ -19,9 +19,6 @@ conda install -c bioconda bioconductor-annotationhub
 conda install -c bioconda bioconductor-genomicfeatures
 conda install -c bioconda bioconductor-normr
 conda install -c bioconda bioconductor-motifdb
-
-conda install -c bioconda bioconductor-dirichletmultinomial
-
 conda install -c bioconda bioconductor-tfbstools
 conda install -c bioconda bioconductor-jaspar2018
 ```
