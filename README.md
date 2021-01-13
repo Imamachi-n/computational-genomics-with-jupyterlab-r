@@ -2,16 +2,17 @@
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Imamachi-n/computational-genomics-with-jupyterlab-r/main?filepath=notebook%2F9_ChIP-seq_analysis.ipynb)
 
-[Computational Genomics with R](https://compgenomr.github.io/book/) を JupyterLab で記述したサンプル集です。
+[Computational Genomics with R](https://compgenomr.github.io/book/) を Jupyter Notebook (WebIDE として JupyterLab を使用) で記述したサンプル集です。
 
-## MyBinder を利用した JupyterLab (WebIDE)の起動
+## 🏗 MyBinder を利用した JupyterLab (WebIDE)の起動
 
 以下の URL にアクセスしてください。  
 <https://mybinder.org/v2/gh/Imamachi-n/computational-genomics-with-jupyterlab-r/main?filepath=notebook%2F9_ChIP-seq_analysis.ipynb>
 
-ローカルで環境構築することなく、Web ブラウザ上で JupyterLab を起動することができます。
+ローカルで環境構築することなく、Web ブラウザ上で JupyterLab を起動することができます。  
+（外部のデータベースにアクセス & データをキャッシュする処理を実行している箇所は、MyBinder ではエラーとなるので注意 🚧）
 
-## 環境構築（ローカル実行する場合）
+## 🛠 環境構築（ローカル実行する場合）
 
 1. [anaconda](https://www.anaconda.com/products/individual#Downloads) をインストールする。
 1. 以下のコマンドを実行（[参考](https://jupyter.org/install)）。
