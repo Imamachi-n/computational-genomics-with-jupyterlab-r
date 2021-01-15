@@ -45,3 +45,7 @@
    ```zsh
    jupyter-lab
    ```
+
+## 9.ChIP-seq 解析のセットアップ
+
+[こちらから](notebook/README.md)セットアップ方法を確認。
