@@ -47,6 +47,25 @@ BiocManager::install("TFBSTools")
 BiocManager::install("JASPAR2018")
 ```
 
+## 10. DNA methylation analysis using bisulfite sequencing data
+
+事前に、以下の R/BioConductor パッケージを `conda` コマンド経由でインストールする。
+
+```zsh
+conda install -c bioconda bioconductor-genomation
+conda install -c bioconda bioconductor-methylkit
+```
+
+もしくは、R console 経由でインストールする。
+
+```r
+if (!requireNamespace("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+
+BiocManager::install("genomation")
+BiocManager::install("methylKit")
+```
+
 ## トラブルシューティング
 
 ### ERROR: configuration failed for package ‘Cairo’
