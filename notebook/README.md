@@ -66,6 +66,25 @@ BiocManager::install("genomation")
 BiocManager::install("methylKit")
 ```
 
+## 11. Multi-omics Analysisz
+
+事前に、以下の R/BioConductor パッケージを `conda` コマンド経由でインストールする。
+
+```zsh
+conda install -c conda-forge r-knitr
+conda install -c conda-forge r-pheatmap
+```
+
+もしくは、R console 経由でインストールする。
+
+```r
+if (!requireNamespace("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+
+install.packages("knitr")
+install.packages("pheatmap")
+```
+
 ## トラブルシューティング
 
 ### ERROR: configuration failed for package ‘Cairo’
