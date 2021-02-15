@@ -66,13 +66,14 @@ BiocManager::install("genomation")
 BiocManager::install("methylKit")
 ```
 
-## 11. Multi-omics Analysisz
+## 11. Multi-omics Analysis
 
 事前に、以下の R/BioConductor パッケージを `conda` コマンド経由でインストールする。
 
 ```zsh
 conda install -c conda-forge r-knitr
 conda install -c conda-forge r-pheatmap
+conda install -c conda-forge r-factominer
 ```
 
 もしくは、R console 経由でインストールする。
@@ -83,6 +84,7 @@ if (!requireNamespace("BiocManager", quietly = TRUE))
 
 install.packages("knitr")
 install.packages("pheatmap")
+install.packages("FactoMineR")
 ```
 
 ## トラブルシューティング
